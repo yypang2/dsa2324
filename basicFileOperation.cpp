@@ -29,20 +29,5 @@ void book::print() {
 }
 
 int main() {
-	bookFiles.open("bookData.txt", ios::in);
-	if (!bookFiles) {
-		cerr << "ERROR!!!! Cannot open the file.";
-		return 0;
-	}
-
-	book myBook[4];
-
-	for (int j = 0; j < 4; j++) {
-		myBook[j].getData();
-	}
-	for (int i = 0; i < 4; i++) {
-		myBook[i].print();
-	}
-
-	bookFiles.close();
+	// insert your code here.
 }
